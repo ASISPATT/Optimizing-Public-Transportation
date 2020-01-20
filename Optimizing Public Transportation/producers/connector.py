@@ -54,9 +54,9 @@ def configure_connector():
                 # TODO
                 "table.whitelist": "stations",
                 # TODO
-                "mode": "",
+                "mode": "incrementing",
                 # TODO
-                "incrementing.column.name": "incrementing",
+                "incrementing.column.name": "stop_id",
                 # TODO
                 "topic.prefix": "org.chicago.cta.",
                 # TODO
