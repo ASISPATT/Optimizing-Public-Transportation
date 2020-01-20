@@ -38,7 +38,7 @@ topic = app.topic("arrival.chicago.stations",value_type=Station)
 out_topic = app.topic("arrival.train.list",partitions=1)
 # TODO: Define a Faust Table
 table = app.Table(
-    "arrival.train.list",
+    "arrival.chicago.stations",
      default=TransformedStation,
      partitions=1,
      changelog_topic=out_topic,
